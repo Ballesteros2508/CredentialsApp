@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCredenciales", "AppCredenciales\AppCredenciales.csproj", "{C30969BF-7069-4D5A-811C-734A664B8A13}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupCredentialsApp", "SetupCredentialsApp\SetupCredentialsApp.vdproj", "{F7F17A25-D060-4FFA-AE6E-5AA81961E749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C30969BF-7069-4D5A-811C-734A664B8A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30969BF-7069-4D5A-811C-734A664B8A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30969BF-7069-4D5A-811C-734A664B8A13}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{C30969BF-7069-4D5A-811C-734A664B8A13}.Debug|Default.Build.0 = Debug|Any CPU
+		{C30969BF-7069-4D5A-811C-734A664B8A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30969BF-7069-4D5A-811C-734A664B8A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30969BF-7069-4D5A-811C-734A664B8A13}.Release|Default.ActiveCfg = Release|Any CPU
+		{C30969BF-7069-4D5A-811C-734A664B8A13}.Release|Default.Build.0 = Release|Any CPU
+		{F7F17A25-D060-4FFA-AE6E-5AA81961E749}.Debug|Any CPU.ActiveCfg = Debug
+		{F7F17A25-D060-4FFA-AE6E-5AA81961E749}.Debug|Default.ActiveCfg = Debug
+		{F7F17A25-D060-4FFA-AE6E-5AA81961E749}.Debug|Default.Build.0 = Debug
+		{F7F17A25-D060-4FFA-AE6E-5AA81961E749}.Release|Any CPU.ActiveCfg = Release
+		{F7F17A25-D060-4FFA-AE6E-5AA81961E749}.Release|Any CPU.Build.0 = Release
+		{F7F17A25-D060-4FFA-AE6E-5AA81961E749}.Release|Default.ActiveCfg = Release
+		{F7F17A25-D060-4FFA-AE6E-5AA81961E749}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+	EndGlobalSection
+EndGlobal
