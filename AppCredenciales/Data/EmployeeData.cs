@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace AppCredenciales.Data
 {
@@ -22,7 +17,7 @@ namespace AppCredenciales.Data
 
         // Constructor con parámetros
         [JsonConstructor]
-        public EmployeeData(int id, string name, string nss, string curp,string position , string imageBase64)
+        public EmployeeData(int id, string name, string nss, string curp, string position, string imageBase64)
         {
             ID = id;
             Name = name;

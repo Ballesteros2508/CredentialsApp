@@ -1,18 +1,8 @@
-using System.Reflection.Metadata;
-using AppCredenciales.Data;
-using DocumentFormat.OpenXml.Bibliography;
-using DocumentFormat.OpenXml.Office2010.Excel;
-using iTextSharp.text.pdf;
-using iTextSharp.text;
-using System.IO;
-using System.Windows.Forms;
-using DocumentFormat.OpenXml.Presentation;
-using Org.BouncyCastle.Pqc.Crypto.Lms;
-using static System.Windows.Forms.AxHost;
 using System.Text.Json;
+using AppCredenciales.Data;
 using ClosedXML.Excel;
-using System.Diagnostics;
-using DocumentFormat.OpenXml.Drawing;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using Path = System.IO.Path;
 
 namespace AppCredenciales
@@ -471,7 +461,7 @@ namespace AppCredenciales
                         }
 
                         // Store the image path temporarily (do not save it yet)
-                        EmployeeData obj = new EmployeeData(item.ID, item.Name, item.NSS, item.CURP,item.Position , imageEmployee);
+                        EmployeeData obj = new EmployeeData(item.ID, item.Name, item.NSS, item.CURP, item.Position, imageEmployee);
                         tempList.Add(obj);
                         MessageBox.Show($"Se agregó {item.Name} correctamente");
                         ClearGralVaraibles();

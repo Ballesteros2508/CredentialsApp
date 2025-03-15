@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace AppCredenciales.Data
 {
@@ -19,7 +14,7 @@ namespace AppCredenciales.Data
         // Constructor con parámetros
         [JsonConstructor]
         public ExtendedEmployeeD(int id, string name, string nss, string curp, string department, string date, string rfc, string position, string imageBase64)
-            : base(id, name, nss, curp, position ,imageBase64)
+            : base(id, name, nss, curp, position, imageBase64)
         {
             Department = department;
             Date = date;
